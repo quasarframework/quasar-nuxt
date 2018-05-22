@@ -7,5 +7,14 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: ['@@']
+  modules: ['@@'],
+  quasar: {
+    theme: 'mat',
+    extras: [
+      'material-icons'
+    ],
+    framework: {
+      components: ['QBtn']
+    }
+  }
 }

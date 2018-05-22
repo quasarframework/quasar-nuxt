@@ -46,6 +46,7 @@
     "jest": "latest",
     "jsdom": "latest",
     "nuxt": "latest",
-    "standard-version": "latest"
+    "standard-version": "latest",
+    "webpack-merge": "^4.1.2"
   }
 }
