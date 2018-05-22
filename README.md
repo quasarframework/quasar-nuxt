@@ -1,18 +1,22 @@
-# quasar-nuxt
-[![npm (scoped with tag)](https://img.shields.io/npm/v/quasar-nuxt/latest.svg?style=flat-square)](https://npmjs.com/package/quasar-nuxt)
-[![npm](https://img.shields.io/npm/dt/quasar-nuxt.svg?style=flat-square)](https://npmjs.com/package/quasar-nuxt)
-[![CircleCI](https://img.shields.io/circleci/project/github/quasarframework/quasar-nuxt.svg?style=flat-square)](https://circleci.com/gh/quasarframework/quasar-nuxt)
-[![Codecov](https://img.shields.io/codecov/c/github/quasarframework/quasar-nuxt.svg?style=flat-square)](https://codecov.io/gh/quasarframework/quasar-nuxt)
-[![Dependencies](https://david-dm.org/quasarframework/quasar-nuxt/status.svg?style=flat-square)](https://david-dm.org/quasarframework/quasar-nuxt)
-[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
+![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
+
+# Quasar Framework
+
+> Build responsive websites, PWAs, hybrid mobile Apps (that look native!) and Electron apps using same code, powered with Vue.
+
+# quasar-nuxt (WORK IN PROGRESS)
+<a href="https://badge.fury.io/js/quasar-framework" target="_blank"><img src="https://badge.fury.io/js/quasar-nuxt.svg"></a>
+[![Join the chat at https://discord.gg/5TDhbDg](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/5TDhbDg)
+<a href="http://forum.quasar-framework.org" target="_blank"><img src="https://img.shields.io/badge/community-forum-brightgreen.svg"></a>
 
 > Nuxt Module for Quasar Framework
 
-[📖 **Release Notes**](./CHANGELOG.md)
+## Supporting Quasar
+Quasar Framework is an MIT-licensed open source project. Its ongoing development is made possible thanks to the support by these awesome [backers](https://github.com/rstoenescu/quasar-framework/blob/dev/backers.md). If you'd like to join them, check out [Quasar Framework's Patreon campaign](https://www.patreon.com/quasarframework).
 
-## Features
+### Proudly sponsored by:
 
-The module features
+[![Truelogic](http://quasar-framework.org/images/logo_truelogic.png)](http://truelogic.com)
 
 ## Setup
 - Add `quasar-nuxt` dependency using yarn or npm to your project
@@ -22,23 +26,32 @@ The module features
 {
   modules: [
     // Simple usage
-    'quasar-nuxt',
-
-    // With options
-    ['quasar-nuxt', { /* module options */ }],
- ]
+    'quasar-nuxt'
+  ],
+  
+  quasar: {
+    // ... config
+  }
 }
 ```
-
-## Usage
-
-Module Description
 
 ## Development
 
 - Clone this repository
 - Install dependencies using `yarn install` or `npm install`
 - Start development server using `npm run dev`
+
+## Documentation
+
+Head on to the Quasar Framework official website: [http://quasar-framework.org](http://quasar-framework.org)
+
+## Stay in Touch
+
+For latest releases and announcements, follow on Twitter: [@quasarframework](https://twitter.com/quasarframework)
+
+## Community Forum
+
+Head on to the official community forum: [http://forum.quasar-framework.org](http://forum.quasar-framework.org)
 
 ## License
 
