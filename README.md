@@ -28,7 +28,7 @@ Quasar Framework is an MIT-licensed open source project. Its ongoing development
     // Simple usage
     'quasar-nuxt'
   ],
-  
+
   quasar: {
     // ... config
   }
@@ -39,7 +39,7 @@ Quasar Framework is an MIT-licensed open source project. Its ongoing development
 
 - Clone this repository
 - Install dependencies using `yarn install` or `npm install`
-- Start development server using `npm run dev`
+- Start development server using `yarn dev` or `npm run dev`
 
 ## Documentation
 
