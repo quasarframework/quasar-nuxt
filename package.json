@@ -1,6 +1,6 @@
 {
   "name": "quasar-nuxt",
-  "version": "0.16.0-alpha.0",
+  "version": "0.16.0-alpha.1",
   "description": "Nuxt Module for Quasar Framework",
   "license": "MIT",
   "contributors": [
@@ -31,7 +31,8 @@
   },
   "dependencies": {
     "quasar-extras": "^2.0.1",
-    "quasar-framework": "^0.16.0"
+    "quasar-framework": "^0.16.0",
+    "webpack-merge": "^4.1.2"
   },
   "devDependencies": {
     "codecov": "latest",
@@ -46,7 +47,6 @@
     "jest": "latest",
     "jsdom": "latest",
     "nuxt": "latest",
-    "standard-version": "latest",
-    "webpack-merge": "^4.1.2"
+    "standard-version": "latest"
   }
 }
