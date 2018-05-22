@@ -19,15 +19,21 @@
     "test": "npm run lint && jest",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
-  "eslintIgnore": ["lib/templates/*.*"],
-  "files": ["lib"],
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
   "jest": {
     "testEnvironment": "node",
     "collectCoverage": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "quasar-extras": "^2.0.1",
+    "quasar-framework": "^0.16.0"
+  },
   "devDependencies": {
-    "nuxt": "latest",
     "codecov": "latest",
     "eslint": "latest",
     "eslint-config-standard": "latest",
@@ -39,6 +45,7 @@
     "eslint-plugin-vue": "latest",
     "jest": "latest",
     "jsdom": "latest",
+    "nuxt": "latest",
     "standard-version": "latest"
   }
 }
