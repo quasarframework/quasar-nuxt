@@ -6,7 +6,7 @@
   </div>
   <div>
     <q-icon name="star" color="yellow-7" size="100px" />
-    <q-input v-model="input" clearable />
+    <q-search v-model="input" clearable />
   </div>
 </div>
 </template>

@@ -11,10 +11,12 @@ module.exports = {
   quasar: {
     theme: 'mat',
     extras: [
-      'material-icons'
+      'material-icons',
+      'ionicons'
     ],
     framework: {
-      components: ['QBtn']
+      components: ['QBtn'],
+      iconSet: 'ionicons'
     }
   }
 }
