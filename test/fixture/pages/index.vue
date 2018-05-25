@@ -17,8 +17,6 @@ export default {
     return {
       input: 'Quasar'
     }
-  },
-  created () {
   }
 }
 </script>
