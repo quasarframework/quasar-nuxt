@@ -14,6 +14,8 @@ module.exports = {
     'vue'
   ],
   rules: {
+    'brace-style': [2, 'stroustrup', { 'allowSingleLine': true }],
+
     // Allow paren-less arrow functions
     'arrow-parens': 0,
     // multiple declarations
