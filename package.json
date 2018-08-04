@@ -1,6 +1,6 @@
 {
   "name": "quasar-nuxt",
-  "version": "0.16.0-alpha.2",
+  "version": "0.17.0-alpha.1",
   "description": "Nuxt Module for Quasar Framework",
   "license": "MIT",
   "contributors": [
@@ -14,6 +14,7 @@
     "access": "public"
   },
   "scripts": {
+    "postinstall": "node ./lib/install.js",
     "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
     "test": "npm run lint && jest",
@@ -30,12 +31,12 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "quasar-framework": "^0.16.0",
+    "quasar-framework": "^0.17.6",
     "webpack-merge": "^4.1.2"
   },
   "devDependencies": {
     "codecov": "latest",
-    "eslint": "latest",
+    "eslint": "4.19.1",
     "eslint-config-standard": "latest",
     "eslint-plugin-import": "latest",
     "eslint-plugin-jest": "latest",
