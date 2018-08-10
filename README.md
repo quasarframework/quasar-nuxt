@@ -35,6 +35,23 @@ Quasar Framework is an MIT-licensed open source project. Its ongoing development
 }
 ```
 
+## Dependencies
+- stylus
+- stylus-loader
+
+These should be installed using the usual `yarn add` or `npm install` methods into your NUXT project.
+
+## Notes
+During the installation process, `quasar-nuxt` will automagically generate the necessary stylus files in order for you to be able to fully customise the look and feel of Quasar and import Quasar variables into your NUXT components. These files can be located at `~assets/quasar/app.styl` and `~assets/quasar/themes/*` so as to remain in-line with the cli starter kit folder structure.
+
+```css
+<style lang="styl">
+@import '~variables'
+h1
+  color: $red-5
+</style>
+```
+
 ## Development
 
 - Clone this repository
