@@ -1,3 +1,6 @@
+# Attention!
+Not enough development time to finalize this. This Quasar project has been discontinued until further notice.
+
 ![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
 
 # Quasar Framework
